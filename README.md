@@ -8,7 +8,7 @@ A fast and modern **CRUD (Create, Read, Update, Delete)** application built with
 
 - ⚛️ React 18+
 - ⚡ Vite
-- 🧱 CSS Modules / Tailwind (optional)
+- 🧱 CSS Modules (Tailwind)
 - 🌐 Open Graph Meta for Social Sharing (WhatsApp, Facebook, etc.)
 
 ---
