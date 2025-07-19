@@ -30,6 +30,12 @@ function Crud() {
     return;
   }
 
+// Email format check
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+if (!emailRegex.test(formData.email)) {
+  alert("Please enter a valid email address");
+  return;
+}
     if (editingIndex !== null) {
       const updatedUsers = [...users];
       console.log(updatedUsers);
