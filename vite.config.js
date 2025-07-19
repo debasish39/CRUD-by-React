@@ -13,7 +13,7 @@ export default defineConfig({
         short_name: 'CRUD',
         start_url: '/',
         display: 'standalone',
-        background_color: '#432DD7',
+        background_color: 'black',
         theme_color: '#0f172a',
         icons: [
           {
