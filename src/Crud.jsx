@@ -113,7 +113,7 @@ function Crud() {
   };
 
   return (
-    <div className="min-h-screen md:p-10">
+    <div className="min-h-screen md:p-10 mx-auto">
       <ToastContainer />
 
       <div className="max-w-6xl mx-auto">
