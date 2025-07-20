@@ -13,9 +13,8 @@ export default defineConfig({
         short_name: 'CRUD',
         start_url: '/',
         display: 'standalone',
-        background_color: 'black',
-
-        theme_color: '#D5D8FF',
+         background_color: '#dbeafe',  // Tailwind 'blue-100' for light background
+        theme_color: '#4f46e5',       // Tailwind 'indigo-600' to match your button
 
         icons: [
           {
