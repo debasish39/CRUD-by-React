@@ -9,12 +9,12 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'React CRUD APP',
+        name: 'CRUD ',
         short_name: 'CRUD',
         start_url: '/',
         display: 'standalone',
-        background_color: '#432DD7',
-        theme_color: '#0f172a',
+        background_color: 'black',
+        theme_color: '#D5D8FF',
         icons: [
           {
             src: '/pwa-192x192.png',
