@@ -113,7 +113,7 @@ function Crud() {
   };
 
   return (
-    <div className="min-h-screen md:p-10 mx-auto">
+    <div className="min-h-screen md:p-10 mx-auto  overflow-hidden">
       <ToastContainer />
 
       <div className="max-w-6xl mx-auto">
@@ -184,8 +184,7 @@ function Crud() {
                     ? 'bg-yellow-500 hover:bg-yellow-600'
                     : 'bg-indigo-600 hover:bg-indigo-700'
                 }`}
-                data-aos="zoom-in"
-                data-aos-delay="400"
+                
               >
                 {editingIndex !== null ? 'Update User' : 'Add User'}
               </button>
