@@ -119,7 +119,7 @@ function Crud() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="flex justify-between items-center mb-8" data-aos="fade-down">
-          <h1 className="text-2xl sm:text-3xl font-bold text-indigo-700">🔧 Credentials Manager</h1>
+          <h1 className="text-xl sm:text-3xl font-bold text-indigo-700">🔧 Credentials Manager</h1>
           <button
             onClick={() => {
               const nextState = !showAlert;
